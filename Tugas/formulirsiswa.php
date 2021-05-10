@@ -908,7 +908,7 @@ function cek_input($data){
 </div>
 
 <?php
-//Menampilkan hasil data yang telah diinput
+//Menampilkan hasil
 echo "<center><h2>Data yang Anda Masukkan:</h2></center>";
 echo "Jenis Pendaftaran= ". $jenis_pendaftaran;
 echo "<br>";
@@ -983,5 +983,7 @@ echo "<br>";
 //Menampilkan pesan sukses jika sudah berhasil menyimpan data
 echo $pesan_sukses;
 ?>
+
+<center><button onclick="location.href = 'cetakexcel.php';" id="cetak" class="btn btn-warning" >Cetak File Excel</button></center>
 </body>
 </html>
